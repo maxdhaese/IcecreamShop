@@ -22,16 +22,15 @@ public class Magnum implements Eatable {
     }
 
     public enum MagnumType{
-        MILKCHOCOLATE("Milkchocolate"),
-        WHITECHOCOLATE("Whitechocolate"),
-        BLACKCHOCOLATE("Blackchocolate"),
-        ALPINENUTS("Alpinenuts"),
-        ROMANTICSTRAWBERRIES("Romanticstrawberries");
+        MILKCHOCOLATE,
+        WHITECHOCOLATE,
+        BLACKCHOCOLATE,
+        ALPINENUTS,
+        ROMANTICSTRAWBERRIES;
 
-        private String magnumName;
-
-        MagnumType(String magnumName) {
-            this.magnumName = magnumName;
+        @Override
+        public String toString() {
+            return name().substring(0,1).toUpperCase() + name().substring(1).toLowerCase();
         }
     }
 }
