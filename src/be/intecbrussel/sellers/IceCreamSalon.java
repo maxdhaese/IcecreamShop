@@ -7,7 +7,7 @@ import be.intecbrussel.eatables.Magnum;
 public class IceCreamSalon implements IceCreamSeller {
 
     private PriceList priceList;
-    private double totalProfit;
+    private double totalProfit = 0;
 
     public IceCreamSalon(PriceList priceList) {
         this.priceList = priceList;
@@ -15,7 +15,7 @@ public class IceCreamSalon implements IceCreamSeller {
 
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
-        totalProfit += priceList.getBallPrice();
+        totalProfit += priceList.getBallPrice()*flavors.length;
         return new Cone(flavors);
 
     }

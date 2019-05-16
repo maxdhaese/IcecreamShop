@@ -39,6 +39,19 @@ public class PriceList {
     }
 
     public double getMagnumPrice(Magnum.MagnumType type) {
+        switch (type){
+            case MILKCHOCOLATE:
+            case BLACKCHOCOLATE:
+            case WHITECHOCOLATE:
+                magnumStandardPrice *= 1;
+                break;
+            case ALPINENUTS:
+                magnumStandardPrice *= 1.5;
+                break;
+            case ROMANTICSTRAWBERRIES:
+                magnumStandardPrice *= 1.7;
+                break;
+        }
 
 
         return magnumStandardPrice;
