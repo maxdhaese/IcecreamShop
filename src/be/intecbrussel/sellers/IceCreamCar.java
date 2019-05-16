@@ -16,20 +16,29 @@ public class IceCreamCar implements IceCreamSeller {
     }
 
     @Override
-    public Cone orderCone(Cone.Flavor[] balls) {
+    public Cone orderCone(Cone.Flavor[] balls) throws NoMoreIceCreamException {
 
         return prepareCone(balls);
     }
 
-    private Cone prepareCone(Cone.Flavor[] balls) {
+    private Cone prepareCone(Cone.Flavor[] balls)throws NoMoreIceCreamException {
         int conesInStock = stock.getCones();
         int ballsInStock = stock.getBalls();
 
-        conesInStock -= 1;
-        for (int i = 0; i < balls.length; i++) {
-            profit += priceList.getBallPrice();
-            ballsInStock -= 1;
+        if (conesInStock <= 0){
+            throw new NoMoreIceCreamException("Sorry, there are no more cones left...");
+        } else {
+            conesInStock -= 1;
         }
+        if (ballsInStock <= 0) {
+            throw new NoMoreIceCreamException("Sorry, there are no more balls left...");
+        }else {
+            for (int i = 0; i < balls.length; i++) {
+                profit += priceList.getBallPrice();
+                ballsInStock -= 1;
+            }
+        }
+
         stock.setBalls(ballsInStock);
         stock.setCones(conesInStock);
 
@@ -38,12 +47,21 @@ public class IceCreamCar implements IceCreamSeller {
     }
 
     @Override
-    public IceRocket orderIceRocket() {
+    public IceRocket orderIceRocket() throws NoMoreIceCreamException {
         return prepareIceRocket();
     }
 
-    private IceRocket prepareIceRocket() {
+    private IceRocket prepareIceRocket() throws NoMoreIceCreamException {
         int rocketsInStock = stock.getIceRockets();
+
+        if (rocketsInStock <= 0) {
+            throw new NoMoreIceCreamException("Sorry, there are no more ice rockets left...");
+        }else {
+            rocketsInStock--;
+            profit += priceList.getRocketPrice();
+
+        }
+        stock.setIceRockets(rocketsInStock);
 
         return new IceRocket();
     }

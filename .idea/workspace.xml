@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2609cf-b4dd-40dd-bacf-16ac897cbf3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSeller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -44,27 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="e#163#164#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
@@ -139,18 +125,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="497">
+              <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#2033#2034#0" expanded="true" />
+                <element signature="e#2132#2133#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,11 +199,12 @@
         <option value="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/sellers/PriceList.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSalon.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/sellers/Stock.java" />
-        <option value="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java" />
         <option value="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" />
+        <option value="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" />
       </list>
     </option>
   </component>
@@ -286,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IceCreamAppV2">
     <configuration name="IceCreamApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamApp" />
       <module name="IceCreamShop" />
@@ -300,8 +297,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IceCreamAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamAppV2" />
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IceCreamAppV2" />
         <item itemvalue="Application.IceCreamApp" />
       </list>
     </recent_temporary>
@@ -323,24 +334,24 @@
     <frame x="-6" y="0" width="1291" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49706227" visible="true" weight="0.21527214" />
-      <window_info id="Structure" order="1" sideWeight="0.50293773" side_tool="true" visible="true" weight="0.21527214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4958872" visible="true" weight="0.21527214" />
+      <window_info id="Structure" order="1" sideWeight="0.5041128" side_tool="true" visible="true" weight="0.21527214" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32967034" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32967034" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3320251" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,41 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/NoMoreIceCreamException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSeller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -469,17 +445,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/NoMoreIceCreamException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,12 +514,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java">
+    <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="497">
+          <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,10 +6,11 @@ import be.intecbrussel.eatables.IceRocket;
 import be.intecbrussel.eatables.Magnum;
 import be.intecbrussel.sellers.IceCreamSalon;
 import be.intecbrussel.sellers.IceCreamSeller;
+import be.intecbrussel.sellers.NoMoreIceCreamException;
 import be.intecbrussel.sellers.PriceList;
 
 public class IceCreamApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoMoreIceCreamException {
 
 
 
