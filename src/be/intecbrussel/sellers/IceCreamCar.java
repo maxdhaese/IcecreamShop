@@ -55,7 +55,7 @@ public class IceCreamCar implements IceCreamSeller {
         int rocketsInStock = stock.getIceRockets();
 
         if (rocketsInStock <= 0) {
-            throw new NoMoreIceCreamException("Sorry, there are no more ice rockets left...");
+            throw new NoMoreIceCreamException("Sorry, wer ran out of ice rockets");
         }else {
             rocketsInStock--;
             profit += priceList.getRocketPrice();
@@ -67,11 +67,22 @@ public class IceCreamCar implements IceCreamSeller {
     }
 
     @Override
-    public Magnum orderMagnum(Magnum.MagnumType type) {
+    public Magnum orderMagnum(Magnum.MagnumType type) throws NoMoreIceCreamException {
         return prepareMagnum(type);
     }
 
-    private Magnum prepareMagnum(Magnum.MagnumType type) {
+    private Magnum prepareMagnum(Magnum.MagnumType type) throws NoMoreIceCreamException {
+        int magnumsInStock = stock.getMagni();
+
+        if (magnumsInStock <= 0){
+            throw new NoMoreIceCreamException("Sorry, we ran out of magni..");
+        }else {
+            magnumsInStock--;
+            profit += priceList.getMagnumPrice(type);
+
+        }
+        stock.setMagni(magnumsInStock);
+
         return new Magnum(type);
     }
 
