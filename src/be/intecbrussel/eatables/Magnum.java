@@ -4,7 +4,7 @@ public class Magnum implements Eatable {
 
     private MagnumType type;
 
-    public Magnum(){
+    public Magnum() {
 
     }
 
@@ -21,7 +21,7 @@ public class Magnum implements Eatable {
         return type;
     }
 
-    public enum MagnumType{
+    public enum MagnumType {
         MILKCHOCOLATE,
         WHITECHOCOLATE,
         BLACKCHOCOLATE,
@@ -30,7 +30,7 @@ public class Magnum implements Eatable {
 
         @Override
         public String toString() {
-            return name().substring(0,1).toUpperCase() + name().substring(1).toLowerCase();
+            return name().substring(0, 1).toUpperCase() + name().substring(1).toLowerCase();
         }
     }
 }

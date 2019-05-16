@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d2609cf-b4dd-40dd-bacf-16ac897cbf3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d2609cf-b4dd-40dd-bacf-16ac897cbf3f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
-    <option name="width" value="1093" />
+    <option name="x" value="875" />
+    <option name="width" value="1095" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,7 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558007507512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558007743123" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
