@@ -4,9 +4,9 @@ import be.intecbrussel.eatables.Magnum;
 
 public class PriceList {
 
-    private double ballPrice;
+    private double ballPrice = 0.5;
     private double rocketPrice = 1.5;
-    private double magnumStandardPrice = 1.5;
+    private double magnumStandardPrice = 2;
 
     public PriceList() {
     }
@@ -38,7 +38,7 @@ public class PriceList {
         this.magnumStandardPrice = magnumStandardPrice;
     }
 
-    public double getMagnumPrice(Magnum.MagnumType type){
+    public double getMagnumPrice(Magnum.MagnumType type) {
         return magnumStandardPrice;
     }
 }

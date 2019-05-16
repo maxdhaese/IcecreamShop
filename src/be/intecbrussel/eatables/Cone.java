@@ -2,7 +2,7 @@ package be.intecbrussel.eatables;
 
 public class Cone implements Eatable {
 
-    private Flavor[] balls = new Flavor[7];
+    private Flavor[] balls;
 
     public Cone() {
     }
@@ -13,6 +13,12 @@ public class Cone implements Eatable {
 
     @Override
     public void eat() {
+        System.out.println("Eating a cone with flavor/flavors: ");
+
+        for (Flavor ball: balls){
+            System.out.println(ball);
+        }
+
 
     }
 

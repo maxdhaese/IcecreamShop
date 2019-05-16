@@ -15,17 +15,19 @@ public class IceCreamSalon implements IceCreamSeller {
 
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
-        return null;
+        totalProfit += priceList.getBallPrice();
+        return new Cone(flavors);
+
     }
 
     @Override
     public IceRocket orderIceRocket() {
-        return null;
+        return new IceRocket();
     }
 
     @Override
     public Magnum orderMagnum(Magnum.MagnumType type) {
-        return null;
+        return new Magnum(type);
     }
 
     @Override
