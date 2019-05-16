@@ -16,16 +16,22 @@ public class IceCreamCar implements IceCreamSeller{
     }
 
     @Override
-    public Cone orderCone(Cone.Flavor[] flavors) {
-        return null;
+    public Cone orderCone(Cone.Flavor[] balls) {
+        Cone cone = prepareCone(balls);
+        return cone;
     }
 
-    private Cone prepareCone(Cone.Flavor[] flavors){
-        return null;
+    private Cone prepareCone(Cone.Flavor[] balls){
+
+
+
+
+
+        return new Cone(balls);
     }
 
     @Override
-    public IceRocket orderIceRocket() {
+    public IceRocket orderIceRocket()  {
         return null;
     }
 

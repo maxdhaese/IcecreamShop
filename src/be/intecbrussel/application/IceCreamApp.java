@@ -23,7 +23,7 @@ public class IceCreamApp {
         cone.eat();
         rocket.eat();
 
-        System.out.println("The profit is : €" + iceCreamSeller.getProfit());
+        System.out.println("The profit is : € " + iceCreamSeller.getProfit());
 
 
 
