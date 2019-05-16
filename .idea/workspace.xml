@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2609cf-b4dd-40dd-bacf-16ac897cbf3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/NoMoreIceCreamException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSalon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/sellers/PriceList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="680">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -143,6 +139,7 @@
                 <element signature="e#471#472#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
                 <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#542#543#0" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
@@ -259,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558013715817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558014685384" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -453,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="680">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
@@ -463,6 +460,7 @@
             <element signature="e#471#472#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
             <element signature="e#622#623#0" expanded="true" />
             <element signature="e#542#543#0" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />

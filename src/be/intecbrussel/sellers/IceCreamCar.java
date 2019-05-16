@@ -10,12 +10,17 @@ public class IceCreamCar implements IceCreamSeller{
     private Stock stock;
     private double profit;
 
+    public IceCreamCar(PriceList priceList, Stock stock) {
+        this.priceList = priceList;
+        this.stock = stock;
+    }
+
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
         return null;
     }
 
-    public Cone prepareCone(Cone.Flavor[] flavors){
+    private Cone prepareCone(Cone.Flavor[] flavors){
         return null;
     }
 
@@ -24,7 +29,7 @@ public class IceCreamCar implements IceCreamSeller{
         return null;
     }
 
-    public IceRocket prepareRocket(){
+    private IceRocket prepareRocket(){
         return null;
     }
 
@@ -33,7 +38,7 @@ public class IceCreamCar implements IceCreamSeller{
         return null;
     }
 
-    public Magnum prepareMagnum(Magnum.MagnumType type){
+    private Magnum prepareMagnum(Magnum.MagnumType type){
         return null;
     }
 
