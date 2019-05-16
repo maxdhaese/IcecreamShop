@@ -22,11 +22,13 @@ public class IceCreamSalon implements IceCreamSeller {
 
     @Override
     public IceRocket orderIceRocket() {
+        totalProfit += priceList.getRocketPrice();
         return new IceRocket();
     }
 
     @Override
     public Magnum orderMagnum(Magnum.MagnumType type) {
+        totalProfit += priceList.getMagnumPrice(type);
         return new Magnum(type);
     }
 

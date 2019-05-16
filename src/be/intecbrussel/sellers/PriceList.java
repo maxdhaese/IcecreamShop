@@ -39,6 +39,8 @@ public class PriceList {
     }
 
     public double getMagnumPrice(Magnum.MagnumType type) {
+
+
         return magnumStandardPrice;
     }
 }
