@@ -13,10 +13,10 @@ public class Cone implements Eatable {
 
     @Override
     public void eat() {
-        System.out.print("Eating a cone with flavor/flavors: ");
+        System.out.println("Eating a cone with flavor/flavors: ");
 
         for (Flavor ball: balls){
-            System.out.print(ball + " ");
+            System.out.println(ball + " ");
 
         }
 

@@ -15,13 +15,15 @@ public class IceCreamApp {
 
         PriceList priceList = new PriceList(0.5,1.5,2);
         IceCreamSeller iceCreamSeller = new IceCreamSalon(priceList);
-        Eatable magnum = iceCreamSeller.orderMagnum(Magnum.MagnumType.BLACKCHOCOLATE);
-        Eatable rocket = iceCreamSeller.orderIceRocket();
-        Eatable cone = iceCreamSeller.orderCone(new Cone.Flavor[]{Cone.Flavor.PISTACHE, Cone.Flavor.STRAWBERRY});
 
-        magnum.eat();
-        cone.eat();
-        rocket.eat();
+        Eatable[] eatables = {
+                iceCreamSeller.orderMagnum(Magnum.MagnumType.BLACKCHOCOLATE),
+                iceCreamSeller.orderIceRocket(),
+                iceCreamSeller.orderCone(new Cone.Flavor[]{Cone.Flavor.PISTACHE, Cone.Flavor.STRAWBERRY})};
+        for (Eatable iceSalon: eatables)
+            iceSalon.eat();
+        
+
 
         System.out.println("The profit is : € " + iceCreamSeller.getProfit());
 
