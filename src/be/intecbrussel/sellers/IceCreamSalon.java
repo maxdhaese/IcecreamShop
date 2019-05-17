@@ -7,31 +7,36 @@ import be.intecbrussel.eatables.Magnum;
 public class IceCreamSalon implements IceCreamSeller {
 
     private PriceList priceList;
-    private double totalProfit;
+    private double totalProfit = 0;
 
+    //create constructor for the IceCreamSalon
     public IceCreamSalon(PriceList priceList) {
         this.priceList = priceList;
     }
 
+    //implement the methods for IceCreamSalon
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
-        totalProfit += priceList.getBallPrice();
+        //totalProfit rises with every ball picked. A ballprice is added for every ball.
+        totalProfit += priceList.getBallPrice()*flavors.length;
         return new Cone(flavors);
 
     }
 
     @Override
     public IceRocket orderIceRocket() {
+        //totalProfit rises with every IceRocket picked
         totalProfit += priceList.getRocketPrice();
         return new IceRocket();
     }
 
     @Override
     public Magnum orderMagnum(Magnum.MagnumType type) {
+        //totalProfit rises with every magnum picked
         totalProfit += priceList.getMagnumPrice(type);
         return new Magnum(type);
     }
-
+    //returns the totalProfit
     @Override
     public double getProfit() {
         return totalProfit;
