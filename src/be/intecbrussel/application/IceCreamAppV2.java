@@ -25,8 +25,8 @@ public class IceCreamAppV2 {
                     iceCreamSeller.orderIceRocket(),
                     iceCreamSeller.orderIceRocket(),
                     iceCreamSeller.orderIceRocket()};
-            for (Eatable iceSalon: eatables)
-                iceSalon.eat();
+            for (Eatable iceCar: eatables)
+                iceCar.eat();
             System.out.println("The profit is : € " + iceCreamSeller.getProfit());
         } catch (NoMoreIceCreamException e) {
             System.out.println(e.getMessage());
