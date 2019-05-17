@@ -9,7 +9,7 @@ public class IceCreamAppV2 {
     public static void main(String[] args) {
         //create objects from PriceList, Stock and IceCreamCar
         PriceList priceList = new PriceList(0.5,1.5,2);
-        Stock stock = new Stock(2,5,5,1);
+        Stock stock = new Stock(3,5,5,2);
         IceCreamSeller iceCreamSeller = new IceCreamCar(priceList,stock);
 
         //fill an array of Eatables with different types of iceCreams(magni, ice rocktes, cones with balls...)
@@ -24,16 +24,17 @@ public class IceCreamAppV2 {
             //run through the array of eatables and print the eat method for each item in the array.
             for (Eatable iceSalon: eatables)
                 iceSalon.eat();
-            //If we get a NoMoreIceCreamException we will send a message.
+            System.out.println("The profit is : € " + iceCreamSeller.getProfit());
+            //If we get a NoMoreIceCreamException we will send a message. In this case the client ordered more ice rockets than the stock counts so we get an exception saying "we ran out of ice rocktes"
+            //when we change the stock of ice rockets to 3 or more there will be no exception and the program will run.
         } catch (NoMoreIceCreamException e) {
             System.out.println(e.getMessage());
-        }finally {
-            System.out.println("The profit is : € " + iceCreamSeller.getProfit());
-            System.out.println(stock.getCones());
-            System.out.println(stock.getBalls());
-
-
         }
+
+
+
+
+
 
 
 

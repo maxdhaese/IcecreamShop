@@ -63,7 +63,7 @@ public class IceCreamCar implements IceCreamSeller {
         int rocketsInStock = stock.getIceRockets();
         //if there are not enough ice rockets there will be a NoMoreIceCreamException and a message.
         if (rocketsInStock <= 0) {
-            throw new NoMoreIceCreamException("Sorry, wer ran out of ice rockets");
+            throw new NoMoreIceCreamException("Sorry, we ran out of ice rockets");
         } else {
             //In case there are enough ice rockets for the order, the stock lowers.
             rocketsInStock--;
