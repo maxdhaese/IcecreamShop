@@ -25,15 +25,16 @@ public class IceCreamAppV2 {
                     iceCreamSeller.orderIceRocket(),
                     iceCreamSeller.orderIceRocket(),
                     iceCreamSeller.orderIceRocket()};
+            for (Eatable iceSalon: eatables)
+                iceSalon.eat();
+            System.out.println("The profit is : € " + iceCreamSeller.getProfit());
         } catch (NoMoreIceCreamException e) {
             System.out.println(e.getMessage());
         }
         //run through the array of eatables and print the eat method for each item in the array.
-            for (Eatable iceSalon: eatables)
-                iceSalon.eat();
-            System.out.println("The profit is : € " + iceCreamSeller.getProfit());
-            //If we get a NoMoreIceCreamException we will send a message. In this case the client ordered more ice rockets than the stock counts so we get an exception saying "we ran out of ice rocktes"
-            //when we change the stock of ice rockets to 3 or more there will be no exception and the program will run.
+
+        //If we get a NoMoreIceCreamException we will send a message. In this case the client ordered more ice rockets than the stock counts so we get an exception saying "we ran out of ice rocktes"
+        //when we change the stock of ice rockets to 3 or more there will be no exception and the program will run.
 
 
 

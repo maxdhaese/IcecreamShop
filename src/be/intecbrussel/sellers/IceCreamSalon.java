@@ -17,7 +17,7 @@ public class IceCreamSalon implements IceCreamSeller {
     //implement the methods for IceCreamSalon
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
-        //totalProfit raises with every ball picked. A ballprice is added for every ball.
+        //totalProfit raises with every ball picked. A ballPrice is added for every ball.
         totalProfit += priceList.getBallPrice()*flavors.length;
         return new Cone(flavors);
 
