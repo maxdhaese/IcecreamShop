@@ -16,7 +16,7 @@ public class IceCreamCar implements IceCreamSeller {
         this.stock = stock;
     }
 
-    //implement all the methods from IceCreamseller and add a preparemethod for each eatable.
+    //implement all the methods from IceCreamSeller and add a prepareMethod for each eatable.
     //Throw a NoMoreIceCreamException for every method because we have to check if the eatables that are ordered are still in stock.
     @Override
     public Cone orderCone(Cone.Flavor[] balls) throws NoMoreIceCreamException {
@@ -46,7 +46,7 @@ public class IceCreamCar implements IceCreamSeller {
                 ballsInStock -= 1;
             }
         }
-
+        //Edit the change of the stock in stock.setBalls and stock.setCones
         stock.setBalls(ballsInStock);
         stock.setCones(conesInStock);
 
@@ -61,14 +61,16 @@ public class IceCreamCar implements IceCreamSeller {
 
     private IceRocket prepareIceRocket() throws NoMoreIceCreamException {
         int rocketsInStock = stock.getIceRockets();
-
+        //if there are not enough ice rockets there will be a NoMoreIceCreamException and a message.
         if (rocketsInStock <= 0) {
             throw new NoMoreIceCreamException("Sorry, wer ran out of ice rockets");
         } else {
+            //In case there are enough ice rockets for the order, the stock lowers.
             rocketsInStock--;
             profit += priceList.getRocketPrice();
 
         }
+        //set the new stock of ice rockets
         stock.setIceRockets(rocketsInStock);
 
         return new IceRocket();
@@ -81,14 +83,16 @@ public class IceCreamCar implements IceCreamSeller {
 
     private Magnum prepareMagnum(Magnum.MagnumType type) throws NoMoreIceCreamException {
         int magnumsInStock = stock.getMagni();
-
+        //check if there are enough magni for the order. If not we get a NoMoreIceCreamException and a message.
         if (magnumsInStock <= 0) {
             throw new NoMoreIceCreamException("Sorry, we ran out of magni..");
         } else {
+            //in case there are enough magni left the stock is lowered.
             magnumsInStock--;
             profit += priceList.getMagnumPrice(type);
 
         }
+        //set the new stock of magni
         stock.setMagni(magnumsInStock);
 
         return new Magnum(type);
